@@ -34,6 +34,6 @@ app.listen(process.env.PORT ?? 3000,function(erro){  // cria a aplicaÃ§Ã£o n
     if (erro){
         console.log("Erro ao Iniciar.");
     }else{
-        console.log("Servidor Iniciado.");
+        console.log("Servidor Iniciado. Listening on port 3000");
     }
 })
