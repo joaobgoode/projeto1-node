@@ -6,9 +6,9 @@ app.get("/", function(req,res){
     res.send("<h1>Bem vindo ao meu site!</h1>");
 })
 
-//rota do cadastro de produtos
-app.get("/produtos", function(req,res){
-    res.send("<h1>Lista de Produtos!</h1>");
+//rota do cadastro de alunos
+app.get("/alunos", function(req,res){
+    res.send("<h1>Lista de alunos!</h1>");
 })
 
 //rota com parametro 
